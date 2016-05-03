@@ -1,7 +1,7 @@
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     font-weight: 300;
-    color: rgba(0,​ 0,​ 0,​ 0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 header {
@@ -13,12 +13,29 @@ header {
     top: 0px;
 }
 
-header img {
+header img#logo {
     height: 100px;
 }
 
+header div#account {
+    position: fixed;
+    right: 50px;
+    top: 15px;
+}
+
+header div#account img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+header div#account span {
+    color: #ffffff;
+}
+
 div#content {
-    min-height: 100px;
+    height: calc(100% - 100px);
     left: 0;
     position: absolute;
     top: 100px;
@@ -26,21 +43,37 @@ div#content {
 }
 
 div#content nav {
+    height: 100%;
     width: 300px;
-    border-right: 1px solid #c0c0c0;
+    border-right: 1px solid #efefef;
 }
 
 div#content nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 div#content nav ul li {
     height: 30px;
     padding: 5px;
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid #efefef;
+}
+
+div#content nav ul li.logout {
+    position: relative;
+    bottom: 0px;
+}
+
+div#content nav ul li img {
+    margin: 3px 0 0 10px;
     
 }
 
 div#content nav ul li a {
-    
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    top: -5px;
 }
