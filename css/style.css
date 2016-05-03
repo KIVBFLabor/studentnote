@@ -93,3 +93,17 @@ div#content #page {
     width: calc(100% - 325px);
     float: right;
 }
+
+@media (max-width: 750px) {
+    header div#account {
+        display: none;
+    }
+    
+    div#content nav {
+        display: none;
+    }
+    
+    div#content #page {
+        width: 100%;
+    }
+}
