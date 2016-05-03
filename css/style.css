@@ -17,6 +17,13 @@ header img#logo {
     height: 100px;
 }
 
+header span#schoolName {
+    color: white;
+    left: 53px;
+    position: absolute;
+    top: 75px;
+}
+
 header div#account {
     position: fixed;
     right: 50px;
@@ -43,6 +50,7 @@ div#content {
 }
 
 div#content nav {
+    float: left;
     height: 100%;
     width: 300px;
     border-right: 1px solid #efefef;
@@ -51,6 +59,7 @@ div#content nav {
 div#content nav ul {
     list-style-type: none;
     padding: 0;
+    padding-top: 20px;
     margin: 0;
 }
 
@@ -76,4 +85,10 @@ div#content nav ul li a {
     color: rgba(0, 0, 0, 0.87);
     position: relative;
     top: -5px;
+}
+
+div#content #page {
+    height: 100%;
+    width: calc(100% - 305px);
+    float: right;
 }
