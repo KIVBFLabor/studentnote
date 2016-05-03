@@ -88,7 +88,8 @@ div#content nav ul li a {
 }
 
 div#content #page {
-    height: 100%;
-    width: calc(100% - 305px);
+    padding: 10px;
+    height: calc(100% - 20px);
+    width: calc(100% - 325px);
     float: right;
 }

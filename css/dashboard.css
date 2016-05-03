@@ -1,0 +1,17 @@
+div.student {
+    display: inline-block;
+	max-width: 200px;
+	min-height: 50px;
+}
+
+div.student img {
+    width: 150px;
+    height: 150px;
+}
+
+div.student span {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid grey;
+}
