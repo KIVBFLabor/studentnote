@@ -30,16 +30,20 @@ input[type="password"] {
 }
 
 button {
+    display: block;
+}
+
+a.button,
+button {
     background-color: #2196f4;
     border: 1px solid #2196f4;
     padding: 6px;
     margin: 5px 0;
     text-transform: uppercase;
     border-radius: 3px;
-    display: block;
 }
 
-button a {
+a.button {
     text-decoration: none;
     color: #ffffff;
 }
