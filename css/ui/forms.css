@@ -1,3 +1,5 @@
+@import url(search.css);
+
 input[type="checkbox"] {
     display: none;
     border: none !important;

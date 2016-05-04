@@ -1,0 +1,19 @@
+div.search {
+	padding: 10px;
+}
+
+div.search input {
+	min-width: 250px;
+}
+
+div.search span {
+	width: 24px;
+	height: 24px;
+	display: block;
+	float: left;
+	background: url(../../img/ui/search.png);
+	border: 0;
+    border-bottom: 2px solid #c0c0c0;
+	margin-top: 5px;
+    margin-bottom: 10px;
+}
