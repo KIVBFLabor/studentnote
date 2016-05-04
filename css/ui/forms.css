@@ -25,4 +25,21 @@ input[type="text"],
 input[type="password"] {
     border: 0;
     border-bottom: 2px solid #c0c0c0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #2196f4;
+    border: 1px solid #2196f4;
+    padding: 6px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    border-radius: 3px;
+    display: block;
+}
+
+button a {
+    text-decoration: none;
+    color: #ffffff;
 }
