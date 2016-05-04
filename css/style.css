@@ -117,6 +117,14 @@ div#content #page .rightbox {
     height: 500px;
 }
 
+div#content #page .leftbox {
+    float: left;
+}
+
+div#content #page .rightbox {
+    float: right;
+}
+
 div.container {
     width: 100%;
 }
