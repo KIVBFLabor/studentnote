@@ -1,0 +1,10 @@
+div#page .rightbox button {
+    display: block !important;
+    margin: 0 auto;
+    padding: 5px 50px;
+}
+
+div#page .rightbox button span {
+    position: relative;
+    top: -10px;
+}

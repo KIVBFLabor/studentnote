@@ -62,11 +62,11 @@ button {
     text-transform: uppercase;
     border-radius: 3px;
     display: inline-block;
+    color: #ffffff;
 }
 
 a.button {
     text-decoration: none;
-    color: #ffffff;
 }
 
 select {
