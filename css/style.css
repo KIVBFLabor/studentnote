@@ -70,7 +70,7 @@ div#content nav ul li {
 }
 
 div#content nav ul li.logout {
-    position: absolute;
+    position: relative;
     bottom: 0px;
 }
 
