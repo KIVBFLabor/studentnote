@@ -52,7 +52,7 @@ div#content {
 div#content nav {
     float: left;
     height: 100%;
-    width: 300px;
+    width: 270px;
     border-right: 1px solid #efefef;
 }
 
@@ -123,6 +123,8 @@ div#content #page .leftbox {
 
 div#content #page .rightbox {
     float: right;
+	padding: 25px;
+	width: calc(50% - 50px);
 }
 
 div.container {

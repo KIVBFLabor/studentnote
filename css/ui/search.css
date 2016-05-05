@@ -1,24 +1,38 @@
 div.search {
-        padding: 10px;
+    padding: 10px;
 }
 
 div.search input {
-        min-width: 250px;
+	min-width: 250px;
 }
 
 div.search span {
-        width: 24px;
-        height: 24px;
-        display: block;
-        float: left;
-        background: url(../../img/ui/search.png);
-        border: 0;
-    border-bottom: 2px solid #c0c0c0;
-        margin-top: 5px;
-    margin-bottom: 10px;
+	width: 24px;
+	height: 24px;
+	display: block;
+	float: left;
+	background: url(../../img/ui/search.png);
+	border: 0;
+	border-bottom: 2px solid #c0c0c0;
+	margin-top: 11px;
+	margin-bottom: 10px;
+	float: left;
 }
 
-div.search input{
+div.search input {
+	float: right;
+	width: calc(100% - 24px) !important;
+}
+
+div.search input:focus + span {
+	border-bottom: 2px solid #2196f4;
+}
+
+div.search input {
     width: 90%;
     display: block;
+}
+
+div.search + * {
+	clear: both;
 }
