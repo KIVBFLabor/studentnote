@@ -15,3 +15,7 @@ div.student span {
     padding: 5px;
     border: 1px solid grey;
 }
+
+div#page {
+    overflow: auto;
+}
