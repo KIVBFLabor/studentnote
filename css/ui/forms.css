@@ -68,3 +68,26 @@ a.button {
     text-decoration: none;
     color: #ffffff;
 }
+
+select {
+    background-color: white;
+    background-image: url("../../img/ui/select-arrow.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 5px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    -khtml-appearance: none;
+    appearance: none;
+    border: 1px solid #efefef;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.098), 0 1px 5px 0 rgba(0, 0, 0, 0.082);
+    
+}
+
+select option {
+    border: 0;
+    padding: 5px;
+}
