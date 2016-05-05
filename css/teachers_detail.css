@@ -3,3 +3,13 @@ input + label {
     width: 100%;
     display: block;
 }
+
+div.profile{
+         width: 100px;
+         height: 100px;
+         float: left;
+}
+
+div div div h2, label{
+         margin: 10px;
+}
