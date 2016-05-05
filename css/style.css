@@ -76,7 +76,7 @@ div#content nav ul li.logout {
 
 div#content nav ul li img {
     margin: 3px 0 0 10px;
-    
+
 }
 
 div#content nav ul li a {
@@ -142,11 +142,11 @@ div.container div div {
     header div#account {
         display: none;
     }
-    
+
     div#content nav {
         display: none;
     }
-    
+
     div#content #page {
         width: 100%;
     }

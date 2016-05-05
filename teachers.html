@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>StudentNote</title>
+        <title>StudentNote</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/ui/list.css" />
-    
+        <link rel="stylesheet" type="text/css" href="css/ui/search.css" />
+
 </head>
 <body>
-	<header>
+        <header>
         <img id="logo" src="img/logo.png" alt="Logo" />
-        <span id="schoolName">Gustav Günzel Gymnasium</span>
+        <span id="schoolName">Gustav G&Atilde;&frac14;nzel Gymnasium</span>
         <div id="account">
             <img src="img/profile.png" alt="Profile Picture" />
             <span>John, Doe</span>
@@ -28,8 +29,8 @@
                     <a href="teachers.html">Lehrer</a>
                 </li>
                 <li>
-                    <img src="img/icons/account.png" alt="Schüler Item" />
-                    <a href="students.html">Schüler</a>
+                    <img src="img/icons/account.png" alt="Sch&Atilde;&frac14;ler Item" />
+                    <a href="students.html">Sch&Atilde;&frac14;ler</a>
                 </li>
                 <li>
                     <img src="img/icons/account-multiple.png" alt="Klasse Item" />
@@ -42,32 +43,36 @@
             </ul>
         </nav>
         <div id="page">
+        <div class="search">
+                                <span></span>
+                                <input type="text" name="search" placeholder="Suchen" />
+                        </div>
             <div class="list">
-				<span>Lehrerübersicht</span>
-				<ul>
-					<li>
-						Dirk Mayer
-					</li>
-					<li>
-						Angelika Busch
-					</li>
-					<li>
-						Maximilian Wirtz
-					</li>
-					<li>
-						Monika Thalberg
-					</li>
-					<li>
-						Klaudia Kohl
-					</li>
-					<li>
-						Birgit Barth
-					</li>
-					<li>
-						<img src="img/icons/add.png" alt="Add new teacher" />
-					</li>
-				</ul>
-			</div>
+                                <span>Lehrer&Atilde;&frac14;bersicht</span>
+                                <ul>
+                                        <li>
+                                                Dirk Mayer
+                                        </li>
+                                        <li>
+                                                Angelika Busch
+                                        </li>
+                                        <li>
+                                                Maximilian Wirtz
+                                        </li>
+                                        <li>
+                                                Monika Thalberg
+                                        </li>
+                                        <li>
+                                                Klaudia Kohl
+                                        </li>
+                                        <li>
+                                                Birgit Barth
+                                        </li>
+                                        <li>
+                                                <img src="img/icons/add.png" alt="Add new teacher" />
+                                        </li>
+                                </ul>
+                        </div>
         </div>
     </div>
 </body>
