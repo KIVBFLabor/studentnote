@@ -25,7 +25,7 @@ header span#schoolName {
 }
 
 header div#account {
-    position: fixed;
+    position: absolute;
     right: 50px;
     top: 15px;
 }
