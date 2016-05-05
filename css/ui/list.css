@@ -24,6 +24,11 @@ div.list ul li {
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.098), 0 1px 5px 0 rgba(0, 0, 0, 0.082);
 }
 
-div.list ul li:last-child {
+div.list a {
+    text-decoration: none;
+    color: #000000;
+}
+
+div.list ul a:last-child li {
     padding: 5px;
 }
