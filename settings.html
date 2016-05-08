@@ -4,8 +4,9 @@
 		<title>StudentNote</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/ui/list.css" />
-		<link rel="stylesheet" type="text/css" href="css/ui/forms.css" /> 
+		<link rel="stylesheet" type="text/css" href="css/settings.css" />
+		<link rel="stylesheet" type="text/css" href="css/ui/forms.css" />
+		<link rel="stylesheet" type="text/css" href="css/ui/dialog.css" />
 	</head>
 <body>
         <header>
@@ -44,39 +45,17 @@
             </ul>
         </nav>
         <div id="page">
-			<div class="search">
-				<input type="text" name="search" placeholder="Suchen" />
-				<span></span>
+			<div class="dialog">
+				<div class="header">
+					Passwort ändern
+				</div>
+				<div class="content">
+					<input type="text" name="email" placeholder="E-Mail"/>
+					<input type="password" name="password" placeholder="Password" />
+					<input type="password" name="password-repeat" placeholder="Password wiederholen" />
+					<a class="button" href="dashboard.html">Speichern</a>
+				</div>
 			</div>
-
-            <div class="list">
-				<span>Klassenübersicht</span>
-				<ul>
-                    <a href="classes_detail.html">
-                        <li>
-                            Inf15a
-							<span></span>
-                        </li>
-                    </a>
-                    <a href="classes_detail.html">
-                        <li>
-                            Inf15b
-							<span></span>
-                        </li>
-                    </a>
-                    <a href="classes_detail.html">
-                        <li>
-                            Inf14a
-							<span></span>
-                        </li>
-                    </a>
-                    <a href="classes_detail.html">
-                        <li>
-                            <img src="img/icons/add.png" alt="Add new teacher" />
-                        </li>
-                    </a>
-				</ul>
-             </div>
         </div>
     </div>
 </body>
