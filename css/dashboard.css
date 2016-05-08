@@ -21,3 +21,8 @@ div.student span {
 div#page {
     overflow: auto;
 }
+
+div#page  #control {
+	width: 40%;
+	margin: 50px auto;
+}
