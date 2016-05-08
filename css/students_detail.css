@@ -1,3 +1,27 @@
+div#page .rightbox .profile div {
+	width: 170px;
+	height: 170px;
+	display: block;
+	margin: 0 auto;
+}
+
+div#page .rightbox .profile div {
+	border-radius: 85px;
+	background: #efefef url("../img/pencil.svg") no-repeat scroll 50% 50%;
+}
+
+div#page .rightbox .profile div img {
+	width: 170px;
+}
+
+div#page .rightbox .profile div img:hover {
+	opacity: 0.5;
+}
+
+div#page .rightbox input {
+	width: 100%;
+}
+
 div#page .rightbox button {
     display: block !important;
     margin: 0 auto;
