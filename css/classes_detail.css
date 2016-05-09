@@ -1,0 +1,9 @@
+div#page div.rightbox input {
+	xmargin: 0 10px;
+	width: calc(100% - 35px);
+}
+
+div#page div.search {
+	width: 100%;
+	width: calc(100% - 45px);
+}
