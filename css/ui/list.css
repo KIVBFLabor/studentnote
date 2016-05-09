@@ -3,10 +3,13 @@ div.list {
 }
 
 div.list span {
+	width: 92%;
     padding-top: 5px;
     text-align: center;
     display: block;
     margin-top: 20px;
+	color: #2196f4;
+	font-size: larger;
 }
 
 div.list ul {
