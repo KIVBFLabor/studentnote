@@ -1,5 +1,6 @@
 div#page input[type="radio"] + label {
-	width: 30%;
+	display: inline-block;
+	width: 32%;
 }
 
 div#page textarea {
