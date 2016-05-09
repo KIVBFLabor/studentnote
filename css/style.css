@@ -63,7 +63,7 @@ div#content nav {
 div#content nav ul {
     list-style-type: none;
     padding: 0;
-    padding-top: 20px;
+    padding-top: 3px;
     margin: 0;
 }
 
@@ -71,6 +71,10 @@ div#content nav ul li {
     height: 30px;
     padding: 5px;
     border-bottom: 1px solid #efefef;
+}
+
+div#content nav ul li:hover {
+	background-color: #f5f5f5;
 }
 
 div#content nav ul li.logout {
