@@ -102,22 +102,6 @@ div#content #page {
     float: right;
 }
 
-/*
-div#content #page .leftbox {
-    float: left;
-    border-right: 1px solid #efefef;
-}
-
-div#content #page .rightbox {
-    float: right;
-}
-
-div#content #page .leftbox,
-div#content #page .rightbox {
-    width: 50%;
-    height: 100%;
-}*/
-
 div#content #page .leftbox,
 div#content #page .rightbox {
     display: inline-block;
