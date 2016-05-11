@@ -28,6 +28,39 @@ div#page {
 }
 
 div#page  #control {
-	width: 40%;
-	margin: 50px auto;
+    min-height: 50px;
+}
+
+div#page #control #class {
+    float: left;
+    width: 45%;
+}
+
+div#page #control div {
+    float: right;
+    width: 45%;
+    top: 10px;
+    padding: 0 !important;
+}
+
+div#page #control div input {
+    margin: 0 !important;
+}
+
+div#page #control div span {
+    margin: 0 !important;
+    padding-bottom: 6px;
+}
+
+@media (max-width: 1050px) {
+    div#page #control #class {
+        margin: 5px;
+        width: 100%;
+    }
+    
+    div#page #control div {
+        float:left;
+        width: 100%;
+        margin: 5px;
+    }   
 }
