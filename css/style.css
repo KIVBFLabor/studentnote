@@ -87,10 +87,13 @@ div#content nav ul li img {
 
 }
 
-div#content nav ul li a {
-    margin-left: 10px;
+div#content nav ul a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.87);
+}
+    
+div#content nav ul li span {
+    margin-left: 10px;
     position: relative;
     top: -5px;
 }
