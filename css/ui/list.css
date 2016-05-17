@@ -43,6 +43,6 @@ div.list a {
     color: #000000;
 }
 
-div.list ul a:last-child li {
+div.list ul a:first-child li {
     padding: 5px;
 }
