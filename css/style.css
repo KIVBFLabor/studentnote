@@ -120,6 +120,7 @@ div#content #page .rightbox {
     float: right;
 	padding: 25px;
 	width: calc(50% - 50px);
+	height: 90%;
 }
 
 div.container {
