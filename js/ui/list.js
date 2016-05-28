@@ -23,7 +23,7 @@ var List = function(selector) {
 		});
 
 		element.empty();
-		element.add(addButton);
+		element.append(addButton);
 
 		for (var id in data) {
 			var entry = data[id];
@@ -37,7 +37,7 @@ var List = function(selector) {
 			item.find("li span").click(handler['onremove']);
 			item.find("li").click(handler['onselect']);
 			
-			element.add(list);
+			element.append(list);
 		}
 	};
 	
